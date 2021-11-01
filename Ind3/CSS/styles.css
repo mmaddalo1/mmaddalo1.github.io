@@ -1,0 +1,90 @@
+/* HTML elements sorted alphabetically */
+
+.backPic {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.card {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-1 {
+    background-color: white;
+}
+
+.col-4 {
+    background-color: beige;
+    color: black;
+    position: relative;
+}
+
+.col-5 {
+    background-color: beige;
+    color: black;
+}
+
+.col-10 {
+    background-color: beige;
+    color: black;
+}
+
+#Interests {
+    background-color: gray;
+    color: white;
+}
+
+.Pic {
+    max-width: 90%;
+    max-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 640px) {    
+
+    .headShotPic {
+        display: none;
+    }
+    
+    .navigation1 {
+        display: none;
+    }
+    
+    .Pic {
+        max-width: 90%;
+        max-height: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+/* Medium screens */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+    .headShotPic {
+        display: none;
+    }
+    
+    .navigation1 {
+        display: none;
+    }
+
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+
+
+}
